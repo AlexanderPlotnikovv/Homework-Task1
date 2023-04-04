@@ -32,40 +32,40 @@ int main()
 		else {
 			switch (static_cast<int>(season)) 
 			{
-			case 1:
+			case static_cast<int>(seasons::January):
 				std::cout << "January" << std::endl;
 				break;
-			case 2:
+			case static_cast<int>(seasons::February):
 				std::cout << "February" << std::endl;
 				break;
-			case 3:
+			case static_cast<int>(seasons::March):
 				std::cout << "March" << std::endl;
 				break;
-			case 4:
+			case static_cast<int>(seasons::April):
 				std::cout << "April" << std::endl;
 				break;
-			case 5:
+			case static_cast<int>(seasons::May):
 				std::cout << "May" << std::endl;
 				break;
-			case 6:
+			case static_cast<int>(seasons::June):
 				std::cout << "June" << std::endl;
 				break;
-			case 7:
+			case static_cast<int>(seasons::Jule):
 				std::cout << "Jule" << std::endl;
 				break;
-			case 8:
+			case static_cast<int>(seasons::August):
 				std::cout << "August" << std::endl;
 				break;
-			case 9:
+			case static_cast<int>(seasons::September):
 				std::cout << "September" << std::endl;
 				break;
-			case 10:
+			case static_cast<int>(seasons::October):
 				std::cout << "October" << std::endl;
 				break;
-			case 11:
+			case static_cast<int>(seasons::November):
 				std::cout << "November" << std::endl;
 				break;
-			case 12:
+			case static_cast<int>(seasons::December):
 				std::cout << "December" << std::endl;
 				break;
 			}
